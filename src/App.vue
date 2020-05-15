@@ -1,13 +1,21 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+    <NavBar></NavBar>
+    <div class="container">
+      <router-view />
     </div>
-    <router-view/>
   </div>
 </template>
 
-<style lang="scss">
+<script>
+export default {
+  name: "App",
+  components: {
+    NavBar: () => import("@/components/NavBar"),
+  },
+};
+</script>
 
+<style lang="scss">
+@import "~materialize-css/dist/css/materialize.min.css";
 </style>
