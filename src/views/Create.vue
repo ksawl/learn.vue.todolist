@@ -53,11 +53,11 @@ export default {
     };
   },
   mounted() {
-    this.chips = M.Chips.init(this.$refs.chips, {
+    this.chips = window.M.Chips.init(this.$refs.chips, {
       placeholder: "Task tags",
     });
 
-    this.date = M.Datepicker.init(this.$refs.datepicker, {
+    this.date = window.M.Datepicker.init(this.$refs.datepicker, {
       format: "dd.mm.yyyy",
       defaultDate: new Date(),
       setDefaultDate: true,
