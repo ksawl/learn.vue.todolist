@@ -1,6 +1,7 @@
-# Learn Vue TodoList
-App work at Heroku
-[DEMO](https://show-vue-todolist-01.herokuapp.com/)
+# Vue TodoList
+- Simple todo-list using localStorage to save your todos
+- vue, vuex, vue-router, materialize-css, sass
+- app work at Heroku [DEMO](https://show-vue-todolist-01.herokuapp.com/)
 
 ## Project setup
 ```
