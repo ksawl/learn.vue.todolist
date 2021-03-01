@@ -1,4 +1,6 @@
-# vue_example_tasks
+# Learn Vue TodoList
+App work at Heroku
+[DEMO](https://learn-vue-todolist-01.herokuapp.com/)
 
 ## Project setup
 ```
