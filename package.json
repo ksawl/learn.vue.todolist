@@ -1,5 +1,5 @@
 {
-  "name": "vue_example_tasks",
+  "name": "learn.vue.todolist",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -24,6 +24,8 @@
     "@vue/cli-service": "~4.3.0",
     "@vue/eslint-config-standard": "^5.1.2",
     "babel-eslint": "^10.1.0",
+    "eslint": "^7.21.0",
+    "eslint-plugin-vue": "^7.6.0",
     "prettier": "^2.0.5",
     "sass": "^1.26.3",
     "sass-loader": "^8.0.2",
